@@ -1,0 +1,86 @@
+* {
+    z-index: 1;
+    background-color: #073763;
+    color: oldlace;
+    margin: 0;
+}
+
+body{
+    padding-bottom: 30px;
+}
+
+#hello {
+    position: absolute;
+    background-color: transparent;
+    font-size: 50pt;
+    left: 20px;
+    z-index: 2;
+}
+
+#selfie {
+    position: relative;
+    height: 100vh;
+}
+
+#name {
+    position: relative;
+    background-color: transparent;
+    top: -50pt;
+    font-size: 40pt;
+    text-align: right;
+}
+
+#college{
+    display: flex;
+    padding: 20px;
+    font-size: 40px;
+}
+
+#college p {
+    padding-left: 10pt;
+}
+
+#CCNY{
+    width: 50vw;
+    font-size: 40pt;
+}
+
+#CCNY p{
+}
+
+
+.imgDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hobbies img {
+    position: relative;
+    width: 70vw;
+}
+
+.hobbies h1 {
+    margin: 20px;
+    font-size: 30pt;
+}
+
+.hobbies p {
+    position: relative;
+    top: -50pt;
+    background-color: transparent;
+    color: transparent;
+
+    font-size: 50pt;
+    text-align: center;
+    z-index: 9;
+}
+
+.hobbies p:hover {
+    color: oldlace;
+}
+
+#Keyboard {
+    margin-top: 50pt;
+}
